@@ -110,3 +110,21 @@ footer {
 .shop-btn:hover {
   background: #e6005c;
 }
+.pill-button {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.pill-button:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
