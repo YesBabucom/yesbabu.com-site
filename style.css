@@ -88,3 +88,25 @@ footer {
     font-size: 1.5rem;
   }
 }
+
+.shop-online {
+  text-align: center;
+  margin: 40px auto;
+  font-size: 20px;
+}
+
+.shop-btn {
+  display: inline-block;
+  margin-top: 10px;
+  background: #ff3366;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.shop-btn:hover {
+  background: #e6005c;
+}
