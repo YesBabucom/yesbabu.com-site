@@ -2,108 +2,53 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>YesBabu Studio Pop-Up</title>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
-  <style>
-    body {
-      font-family: 'Outfit', sans-serif;
-      background: linear-gradient(135deg, #f9d5ec, #e1c8ff);
-    }
-    .glass {
-      backdrop-filter: blur(12px);
-      background: rgba(255, 255, 255, 0.25);
-      box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
-      border-radius: 1.5rem;
-      border: 1px solid rgba(255, 255, 255, 0.2);
-    }
-    .fade-in {
-      animation: fadeIn 1.5s ease-out forwards;
-      opacity: 0;
-    }
-    @keyframes fadeIn {
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-      from {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>YesBabu Studio – Event & Brand</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body class="min-h-screen flex items-center justify-center p-4">
+<body>
+  <header>
+    <h1>YesBabu Studio</h1>
+    <p>📍 20/2/1, Circular Rd, Shibpur (Near Nabanna, beside Café Octopus)</p>
+    <p>🗓️ 15–17 August, 12 PM – 9 PM</p>
+  </header>
 
-  <div class="glass fade-in p-10 max-w-3xl w-full text-center text-white bg-white bg-opacity-10">
-    <h1 class="text-4xl font-bold text-purple-800 mb-2">
-      Yesbabu is Going Offline Again at <span class="text-blue-700">YesBabu Studio</span>
-    </h1>
-    <p class="text-lg text-purple-900 mb-6">
-      Join us at the exclusive <strong>Yesbabu Studio Pop-Up</strong>
-    </p>
+  <section class="highlight">
+    <h2>🔥 3-Day Fashion Sale & Exhibition</h2>
+    <ul>
+      <li>Clothing from ₹100</li>
+      <li>Sunglasses from ₹199</li>
+      <li>₹1 Sunglasses Deal</li>
+      <li>Jewelry from ₹99</li>
+    </ul>
+    <p>🎁 Free gifts for all visitors!</p>
+  </section>
 
-    <div class="bg-purple-100 text-purple-900 rounded-xl p-6 mb-6 shadow-md">
-      <p class="text-purple-800 mb-6">
-        3 days of curated offline shopping, creative energy, and connection. Don’t miss the vibes!
-      </p>
-      <h2 class="text-md font-semibold mb-1">🗓️ 1st Aug – 3rd Aug, 2025</h2>
-      <p class="text-md">🕛 12 PM to 9 PM daily</p>
-      <p class="text-md mt-2">📍 YesBabu Studio, 20/2/1, Circular Rd, Shibpur</p>
-    </div>
-
-    <a class="inline-block mt-4 bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-full shadow-lg transition" download href="https://cdn.shopify.com/s/files/1/0794/0191/0547/files/event.ics?v=1753302839">
+  <section class="cta">
+    <a href="https://cdn.shopify.com/s/files/1/0794/0191/0547/files/YesBabu_Studio_Event_Aug15_2025.ics?v=1754307586" class="calendar-btn" target="_blank">
       📅 I'll Go – Add to Calendar
     </a>
-
-    <div class="bg-white bg-opacity-60 rounded-xl p-6 my-6 shadow-md text-purple-800 text-left">
-      <h3 class="text-lg font-semibold mb-2">📍 Landmarks to Find Us:</h3>
-      <ul class="list-disc pl-6 space-y-2 text-sm">
-        <li><strong>Near Nabanna, Shibpur</strong></li>
-        <li><strong>Beside Café Octopus</strong></li>
-        <li><strong>1 min walking from Nabanna GoalPost Bus Stop</strong></li>
-        <li><strong>Google YesBabu Studio and Follow directions</strong></li>
-      </ul>
-    </div>
-
-    <a class="inline-block bg-purple-700 hover:bg-purple-800 text-white font-semibold py-3 px-6 rounded-full shadow-lg transition" href="https://www.google.com/maps/search/?api=1&query=22.56774045901235,88.31029167703801" target="_blank" rel="noopener noreferrer">
-      📍 Open in Your Map
+    <a href="https://yesbabu.in" class="shop-btn" target="_blank">
+      🛍️ Feeling lazy to visit? Shop Online
     </a>
+  </section>
 
-    <div id="map" class="w-full max-w-4xl mt-12 mb-16 fade-in">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d921.0765281914928!2d88.3096730695791!3d22.567651598718438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027968f31d2395%3A0x41f016613c891ab8!2sYesBabu%20Studio!5e0!3m2!1sen!2sin!4v1752211610956!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen loading="lazy"></iframe>
+  <section>
+    <h2>🗺️ Location</h2>
+    <iframe src="https://www.google.com/maps?q=YesBabu+Studio,+Shibpur&output=embed" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen></iframe>
+  </section>
+
+  <section>
+    <h2>📣 Stay Updated</h2>
+    <div class="fb-container">
+      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fyesbabu.sweetu&tabs=timeline&width=1000&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+        width="100%" height="600" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
     </div>
+  </section>
 
-    <section class="shop-online">
-  <p>Feeling lazy to visit?</p>
-  <a href="https://yesbabu.in" class="pill-button" target="_blank">🛍️ Shop Online</a>
-</section>
-<!-- Load Facebook SDK -->
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous"
-  src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0"
-  nonce="yesbabu"></script>
-
-<section class="facebook-embed">
-  <iframe 
-    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fyesbabu.sweetu&tabs=timeline&width=500&height=600&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-    width="100%" 
-    height="780" 
-    style="border:none;overflow:hidden" 
-    scrolling="no" 
-    frameborder="0" 
-    allowfullscreen="true" 
-    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-  </iframe>
-</section>
-
-
-    <footer class="text-sm text-purple-700 text-center pb-6">
-      © 2025 Yesbabu Studio. Designed with love.
-    </footer>
-  </div>
-
+  <footer>
+    <p>© 2025 YesBabu. All rights reserved.</p>
+  </footer>
 </body>
 </html>
-
