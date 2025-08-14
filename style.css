@@ -47,6 +47,8 @@ body {
 .highlight-box h2 {
   margin-bottom: 15px;
   color: #cc7000;
+  font-size: 1.1rem;
+  line-height: 1.5;
 }
 
 .highlight-box ul {
