@@ -133,6 +133,7 @@ a.shop-button:hover {
 footer {
   margin-top: 50px;
   text-align: center;
-  color: #888;
+  color: #6b21a8; /* purple-700 */
   font-size: 0.9rem;
+  padding-bottom: 1.5rem;
 }
