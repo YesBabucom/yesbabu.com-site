@@ -19,14 +19,16 @@ body {
   padding: 20px;
 }
 
-/* Logo / Heading */
-.logo {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #000;
-  margin-bottom: 10px;
+/* Hero Image */
+.hero-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+  margin-bottom: 15px;
 }
 
+/* Event Date */
 .event-date {
   font-size: 1.1rem;
   color: #555;
@@ -62,7 +64,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 a.calendar-button,
@@ -94,6 +96,19 @@ a.shop-button:hover {
   background-color: #4527a0;
 }
 
+/* Map Container */
+.map-container {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 500px;
+  border: none;
+  border-radius: 6px;
+}
+
 /* Facebook Embed */
 .fb-section {
   margin-top: 40px;
@@ -105,9 +120,8 @@ a.shop-button:hover {
   color: #3b5998;
 }
 
-iframe {
+.fb-section iframe {
   width: 100%;
-  height: 620px;
   border: none;
   border-radius: 6px;
 }
