@@ -19,10 +19,11 @@ body {
   padding: 20px;
 }
 
-/* Hero Image */
+/* Hero Image – Constrained and Centered */
 .hero-image {
   width: 100%;
-  height: auto;
+  max-height: 300px;
+  object-fit: cover;
   display: block;
   border-radius: 6px;
   margin-bottom: 15px;
